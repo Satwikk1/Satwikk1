@@ -3,4 +3,4 @@
 <b>Web Developer</b>
 <img width="100%" src="customWave.svg">
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+![](https://komarev.com/ghpvc/?username=Satwikk1&color=blueviolet)
