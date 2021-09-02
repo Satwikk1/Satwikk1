@@ -1,0 +1,60 @@
+<svg 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 65 160 40" 
+    preserveAspectRatio="none" 
+    shape-rendering="auto"
+    class="wave"
+>
+    <defs>
+        <path id="wave-path" d="M -166 35 V 69 H -56 V 35 C -78 55 -78 15 -102 35 C -126 55 -146 15 -166 35 M -56 35 V 69 H 56 V 35 C 32 55 32 15 8 35 C -16 55 -35 15 -56 35" />
+    </defs>
+    <defs>
+
+        <linearGradient id="gradient-fill" x1="0" y1="0" x2="0" y2="85" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#b403b4" stop-opacity="0.8"/>
+                <stop offset="1" stop-color="#bf9bc9" stop-opacity="0.8"/>
+        </linearGradient>
+
+    </defs>
+    <g class="wave-motion">
+        <use xlink:href="#wave-path" x="70" y="44" fill="url(#gradient-fill)"/>
+        <use xlink:href="#wave-path" x="70" y="48" fill="url(#gradient-fill)"/>
+        <use xlink:href="#wave-path" x="70" y="52" fill="url(#gradient-fill)"/>
+    </g>
+
+    <style>
+        .wave{
+            width: 100%;
+            height: 150px;
+            border-radius: 25px;
+        }
+        .wave-motion use{
+            animation: move-right 10s ease-in-out alternate infinite;
+        }
+        .wave-motion>:nth-child(1){
+            animation: move-left 8s ease-in-out alternate-reverse infinite;
+        }
+        .wave-motion>:nth-child(2){
+            animation: move-right 5s ease-in-out alternate infinite;
+        }
+
+
+        @keyframes move-right {
+            0% {
+                transform: translateX(40px);
+            }
+            100% {
+                transform: translateX(90px);
+            }
+        }
+        @keyframes move-left{
+            0% {
+                transform: translateX(40px);
+            }
+            100% {
+                transform: translateX(90px);
+            }
+        }
+    </style>
+</svg>
