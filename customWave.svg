@@ -29,7 +29,7 @@
         }
         #boat{
             transform: translate(70px, 63px);
-            animation: float 10s ease-in-out alternate infinite;
+            animation: float 10s cubic-bezier(.55, .5, .45, .5) alternate infinite;
         }
         .wave-motion :nth-child(1){
             animation: move-right 10s ease-in-out alternate infinite;
