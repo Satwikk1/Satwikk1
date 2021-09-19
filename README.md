@@ -1,4 +1,4 @@
-<h1>Hi there, I am <b>Satwik Singh</b> <img width="30px" src="images/HI.gif"></h1>
+<h1>Hi there, I am <b>Satwik Singh</b> <img width="30px" src="images/Hi.gif"></h1>
 <h2>I am a full stack web developer</h2>
 
 ## Connect with me
