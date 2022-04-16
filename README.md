@@ -46,20 +46,6 @@
 
 
 ---
-<p>|</p>
-<p>|</p>
-
-# 📈 Stats
-
-![Satwikk1 github activity graph](https://activity-graph.herokuapp.com/graph?username=Satwikk1&theme=xcode)
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Satwikk1&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Satwikk1&theme=tokyonight" />
-</p>
-
-
-<p>|</p>
-<p>|</p>
 <img width="100%" src="customWave.svg">
 
 <!-- ![](https://komarev.com/ghpvc/?username=Satwikk1&color=blueviolet) -->
